@@ -1,155 +1,105 @@
-/*
-* {
-	margin: 0px;
-	padding: 0px;
-}
-*/
-
-.container {	
-	border: 5px solid gray;	
-  width: 100%;    
-  display: block;
+body  {	
+	// border: 5px solid gray;	  
 }
 
-header {
-	border: 5px solid red;
+a,
+a:link,
+a:visited,
+a:active {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+}
+a:hover {
+	text-decoration: underline
+}
+
+.header {
+	// border: 5px solid red;
 	width: 100%;
 	height: 100%;
 	display: block;	
 }
 
-footer {
-	border: 5px solid blue;
-	width: 100%;
-  bottom: 0;
-  position: absolute;	
-  display: block;
+.header ul {
+	text-align: right;
 }
 
-main {
-	border: 5px solid green;
+.header li {
+	list-style-type: none;
+  display: inline-block;  
+  vertical-align: middle; 
+  padding-right: 5px;
+}
+
+.container {
+	// border: 5px solid green;
 	width: 100%;
 	display: block;
-}
-
-.top-nav {
-	text-align: right;
-}
-
-.top-nav li {
-  list-style-type: none;
-  display: inline;  
-  vertical-align: middle;  
-}
-
-.top-nav a,
-.top-nav a:link,
-.top-nav a:visited,
-.top-nav a:active {
-  color: #000000;
-  text-decoration: none;
-  font-weight: normal;
-}
-
-.top-nav a:hover {
-	text-decoration: underline
-}
-
-.footer-nav.left {
-	text-align: left;
-}
-
-.footer-nav.right {
-	text-align: right;
-}
-
-.footer-nav li {
-	bottom: 0;
-  list-style-type: none;
-  display: inline;  
-  vertical-align: middle;  
-}
-
-.footer-nav a,
-.footer-nav a:link,
-.footer-nav a:visited,
-.footer-nav a:active {
-  color: #000000;
-  text-decoration: none;
-  font-weight: normal;
-}
-
-.footer-nav a:hover {
-	text-decoration: underline
+	padding-top: 140px;
 }
 
 .logo {
 	height: 95px;
-	width: 269;
-	margin-top: 100px;
+	width: 269px;
+	margin-right: auto;
+	margin-left: auto;
 	margin-bottom: 20px;
+	display: block;
+}
+
+.center {
 	text-align: center;
 }
 
-.search {
+.search-input {
 	width: 572px;
 	height: 27px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 20px;
 	display: block;
 }
 
-.search-buttons {
-	text-align: center;
+.search-buttons ul {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 0px;
 }
 
 .search-buttons li {
   list-style-type: none;
-  display: inline;  
+  display: inline-block;  
   vertical-align: middle;  
-  padding-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-
-/*
-.nav {
-	text-align: right;
+.footer {
+	// border: 5px solid blue;
+	height: 30px;
 	width: 100%;
-  height: 100%;
-}
-
-.top-nav li {
-  list-style-type: none;
-  display: inline;  
+  bottom: 0;
+  position: absolute;	
+  display: inline-block;
   vertical-align: middle;
-  width: 100%;
-  height: 100%;
 }
 
-.top-nav li a {
-  list-style-type: none;
-  display: inline;  
-  vertical-align: middle;
-  width: 100%;
-  height: 100%;
+.footer .left {
+	text-align: left;
+	float: left;
 }
 
-
-
-.center {
-	margin-left: auto;
-    margin-right: auto;    
-    background-color: #b0e0e6;
+.footer .right {
+	text-align: right;
+	float: right;
 }
 
+.footer li {
+	list-style-type: none;
+  display: inline-block;  
+  vertical-align: middle; 
+  padding-right: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-*/
