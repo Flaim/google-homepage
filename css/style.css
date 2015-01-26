@@ -1,11 +1,12 @@
+/*
 * {
 	margin: 0px;
 	padding: 0px;
 }
+*/
 
 .container {	
 	border: 5px solid gray;	
-  position: relative;
   width: 100%;    
   display: block;
 }
@@ -21,7 +22,7 @@ footer {
 	border: 5px solid blue;
 	width: 100%;
   bottom: 0;
-  position: fixed;	
+  position: absolute;	
   display: block;
 }
 
@@ -31,28 +32,83 @@ main {
 	display: block;
 }
 
-nav a,
-nav a:link,
-nav a:visited,
-nav a:active {
+.top-nav {
+	text-align: right;
+}
+
+.top-nav li {
+  list-style-type: none;
+  display: inline;  
+  vertical-align: middle;  
+}
+
+.top-nav a,
+.top-nav a:link,
+.top-nav a:visited,
+.top-nav a:active {
   color: #000000;
   text-decoration: none;
   font-weight: normal;
 }
 
-nav a:hover {
+.top-nav a:hover {
+	text-decoration: underline
+}
+
+.footer-nav.left {
+	text-align: left;
+}
+
+.footer-nav.right {
+	text-align: right;
+}
+
+.footer-nav li {
+  list-style-type: none;
+  display: inline;  
+  vertical-align: middle;  
+}
+
+.footer-nav a,
+.footer-nav a:link,
+.footer-nav a:visited,
+.footer-nav a:active {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.footer-nav a:hover {
 	text-decoration: underline
 }
 
 .logo {
 	height: 95px;
 	width: 269;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	text-align: center;
 }
 
-.content .search input {
+.search {
 	width: 572px;
 	height: 27px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
+
+.search-buttons {
+	text-align: center;
+}
+
+.search-buttons li {
+  list-style-type: none;
+  display: inline;  
+  vertical-align: middle;  
+  padding-top: 10px;
+}
+
 
 /*
 .nav {
